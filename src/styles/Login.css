@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+  }
+  
+  .form-title {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .form-control {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background-color: #fafafa;
+    outline: none;
+  }
+  
+  .btn {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+
+  
+  .btn-secondary {
+    color: #3b5998;
+    border: 1px solid #3b5998;
+    background-color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    color: #fff;
+    background-color: #3b5998;
+  }
+  
+
+
+  .chatImage {
+
+    height: 110px;
+    width: 150px;
+  }
+
+
+
+
+
+  
+@media (max-width: 800px) {
+
+  .form-container{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 200px;
+  padding: 35px;
+  border: 1px solid #dbdbdb;
+  background-color: #fff;
+  font-size: 15px;
+  }
+
+}
